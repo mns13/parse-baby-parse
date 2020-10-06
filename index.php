@@ -16,8 +16,6 @@ $refArray = [
   "https://www.dogpile.com/"
 ];
 
-//get the json file with links to products
-// shell_exec('lib/phantomjs.exe main.js');
 
 $json_filename = 'product_links.json';
 
