@@ -43,7 +43,6 @@ for($i=0; $i<6; $i++){
   $content = curl_exec($ch);
   curl_close($ch);
 
-  // file_put_contents('page.html', $content);
 
   $dom = str_get_html($content);
 
